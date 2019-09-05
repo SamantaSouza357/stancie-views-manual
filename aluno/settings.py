@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'landing',
     'rest_framework',
     'professor',
+    'rest_framework.authtoken',
 ]
 
 MIDDLEWARE = [
