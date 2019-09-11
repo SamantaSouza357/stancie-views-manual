@@ -33,3 +33,7 @@ class AlunoSerializer(serializers.Serializer):
         instance.save()
         return instance
 
+class AlunoLightSerializer(serializers.Serializer):
+    id = serializers.IntegerField()
+    nome = serializers.CharField()
+
